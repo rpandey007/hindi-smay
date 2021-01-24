@@ -831,21 +831,18 @@ body.boxed #container {
 #container.active {
   opacity: 1;
 }
-p {
-  font-size: 14px;
-  color: #666666;
-  
-  font-weight: 400;
-  line-height: 20px;
-  margin: 0 0 10px;
-}
 .title-section {
   border-bottom: 1px solid #e1e1e1;
   margin-bottom: 30px;
 }
 .title-section h1 {
   color: #222222;
-  font-size: 15px;
+  font-size: 23px;
+  background: linear-gradient(
+-45deg
+, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
   font-weight: 700;
   margin: 0 0 30px;
@@ -908,6 +905,9 @@ p {
 }
 .title-section.white h1 {
   color: #ffffff;
+  -webkit-background-clip: unset;
+  background: transparent;
+  -webkit-text-fill-color: unset;
 }
 .title-section.white .arrow-box a {
   color: #666666;
@@ -3301,7 +3301,7 @@ ul.list-posts > li .post-content h2 {
   font-weight: 700;
   line-height: 20px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 16px;
   max-height: 40px;
   overflow: hidden;
   margin-bottom: 7px;
