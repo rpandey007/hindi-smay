@@ -306,6 +306,14 @@ $(document).ready(function($) {
 		$('.bxslider').bxSlider({
 			mode: 'fade',
 			auto: true
+    });
+    $('.bxslider').bxSlider({
+			mode: 'fade',
+			auto: true
+    });
+    $('.bx-slider2').bxSlider({
+			mode: 'fade',
+			auto: true
 		});
 
 		$('.big-bxslider').bxSlider({
@@ -503,4 +511,17 @@ $(document).ready(function($) {
 $('.demo3').easyTicker({
   visible: 1,
   interval: 4000
+});
+
+
+
+$('.slick-slider-contauner').slick({
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000
 });
